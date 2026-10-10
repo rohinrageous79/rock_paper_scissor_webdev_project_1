@@ -1,0 +1,61 @@
+body{
+    background-color: black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 50px auto;
+    font-size: 10px;
+}
+
+.buttons{
+    justify-content: center;
+    gap: 15px;
+    display: flex;
+}
+
+#rock{
+    background-color: white;
+    border:none;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+#paper{
+    background-color: white;
+    border:none;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+#scissor{
+    background-color: white;
+    border:none;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+#reset{
+    background-color: orangered;
+    color: white;
+    font-size: 10px;
+    border-radius: 15px;
+    padding: 20px 40px;
+}
+
+#moves{
+    font-size: 20px;
+}
+
+#result{
+    font-size: 22px;
+    font-weight: bold;
+}
+#user-score{
+    font-size: 21px;
+}
+#computer-score{
+    font-size: 21px;
+}
